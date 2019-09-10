@@ -1,6 +1,6 @@
 require_relative './spec_helper'
 
-describe "say_hello" do "Kent Bevk"
+describe "say_hello" do "Kent Beck"
   
   it 'accepts an argument of a name and prints out Hello with that Name' do
     expect($stdout).to receive(:puts).with("Hello Kent Beck!")
